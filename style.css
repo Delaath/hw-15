@@ -12,34 +12,36 @@
 }
 
 .item{
-    flex-basis: 300px;
     padding: 50px;
+    text-align: center;
 }
 
 .item:nth-child(1){
     background-color: red;
-    flex-grow: 2;
+order: 1;
+flex-basis: 50%;
 }
 
 .item:nth-child(2){
-    background-color: yellow;
-    flex-grow: 2;
+    background-color: orange;
+order: 4;
+flex-basis: 33.333%;
 }
 
 .item:nth-child(3){
     background-color: blueviolet;
-    align-self: flex-end;
-    flex-basis: 400px;
-    flex-grow: 2;
+order: 3;
+flex-basis: 33.333%;
 }
 
 .item:nth-child(4){
-    background-color: blue;
-    flex-grow: 2;
+    background-color: skyblue;
+order: 5;
+flex-basis: 33.333%;
 }
 
 .item:nth-child(5){
     background-color: green;
-    flex-grow: 2;
-    flex-basis: 190px;
+order: 2;
+flex-basis: 50%;
 }
